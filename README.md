@@ -1,5 +1,5 @@
 # tmux-spotify-info
-This is a fork of [feqzz's tmux-info](https://github.com/feqzz/tmux-spotify-info) plugin meant to be used with spt (spotify-tui)
+This is a fork of [feqzz's tmux-info](https://github.com/feqzz/tmux-spotify-info) plugin meant to be used with spt (spotify-tui) and spotifyd
 It's merely a quick and dirty replica that adjusts the files accordingly
 
 ### Installation with Tmux Plugin Manager
