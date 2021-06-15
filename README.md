@@ -1,23 +1,19 @@
 # tmux-spotify-info
-Displays the current song playing with Spotify in your tmux status bar. When playback is paused, a pause icon is displayed next to the artist.
-![](https://feqzz.no/img/tmux-spotify-info-example.png)
-
-## Installation
-Dependencies:
-* dbus
+This is a fork of [feqzz's tmux-info](https://github.com/feqzz/tmux-spotify-info) plugin meant to be used with spt (spotify-tui)
+It's merely a quick and dirty replica that adjusts the files accordingly
 
 ### Installation with Tmux Plugin Manager
 Edit your `.tmux.conf` and append the plugin to your TPM list.
 
 ```tmux
-set -g @plugin 'feqzz/tmux-spotify-info'
+set -g @plugin 'spookdot/tmux-spotify-info'
 ```
 Remember to hit `<prefix> + I` to install the plugin.
 
 ### Manual
 Clone the repo:
 ``` bash
-git clone https://github.com/feqzz/tmux-spotify-info ~/.tmux/
+git clone https://github.com/spookdot/tmux-spotify-info ~/.tmux/
 ```
 Edit your `.tmux.conf` and add this line at the bottom.
 ``` bash
